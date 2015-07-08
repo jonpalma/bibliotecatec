@@ -29,23 +29,22 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo"></a>
+			<a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="Logo"></a>
 		</div>
 
 	<!-- Collect the nav links, forms, and other content for toggling -->
 	<div class="collapse navbar-collapse" id="main-nav">
 		<ul class="nav navbar-nav navmenu">
-			<li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
+			<li><a href="index.php">Inicio</a></li>
 			<?php if($loggedin) { ?>
-				<li><a href="#">Libros</a></li>
-				<li><a href="#">Apartados</a></li>
-				<li><a href="#">Historial</a></li>
-				<li><a href="#">Logout</a></li>
+				<li><a href="library.php">Libros</a></li>
+				<li><a href="history.php">Historial</a></li>
+				<li><a href="index.php">Logout</a></li>
 			<?php } ?> 
 		</ul>
 
 		<?php if($loggedin) { ?>
-		<form class="navbar-form navbar-right visible-lg-inline-block visible-md-inline-block" role="search">
+		<form class="navbar-form navbar-right visible-lg-inline-block visible-md-inline-block" role="search" action="library.php#library">
 			<div class="form-group">
 				<input id="headersearch" type="text" class="form-control" placeholder="Buscar por...">
 				<button class="search-icon"></button>
@@ -68,9 +67,12 @@
 		</form>
 		<?php } ?>
 		</div><!-- /.navbar-collapse -->
-		<a href="profile.php"><div class="profile-navbar">
-				<p>Claudia R.</p>
-				<img src="img/profile/profile-picture-mini.png" alt="profile">
-			</div></a>
+		<?php if($loggedin) { ?>
+			<a href="profile.php"><div class="profile-navbar">
+					<p>Claudia R.</p>
+					<img src="img/profile/profile-picture-mini.png" alt="profile">
+				</div>
+			</a>
+		<?php } ?>
 	</div><!-- /.container-fluid -->
 </nav>
