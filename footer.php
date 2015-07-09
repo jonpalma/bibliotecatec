@@ -25,6 +25,9 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/materialize.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="locales/bootstrap-datepicker.es.min.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>

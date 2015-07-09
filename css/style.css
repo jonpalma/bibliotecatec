@@ -28,6 +28,15 @@ h2 {
 	border-bottom: #33c29b solid 1px;
 }
 
+.modal h2 {
+	border-bottom: none;
+	padding-left: 0px;
+}
+
+input {
+	font-size: 20px;
+}
+
 .padding {
 	padding: 50px 100px
 }
@@ -64,6 +73,10 @@ p.big {
 	color: #1eaace;
 }
 
+.gray {
+	color: #a0a0a0;
+}
+
 .center-text {
 	text-align: center;
 }
@@ -71,6 +84,8 @@ p.big {
 .inline-block {
 	display: inline-block;
 }
+
+
 
 .transform-center {
 	position: relative;
@@ -568,6 +583,66 @@ p.big {
 .active-page {
     font-weight: 900;
     color: #333 !important;
+}
+
+.modal-content {
+	padding: 20px;
+}
+
+.modal .col-sm-8 {
+	border-left: #fbca61 solid 1px;
+}
+
+.modal .btn-submit {
+	float: right;
+	margin-right: 15px;
+}
+
+.modal .row.ready .col-sm-8 img {
+	margin-top: -65px;
+}
+
+.modal .row.ready .col-sm-4 img {
+	position: relative;
+	top: 35px;
+}
+
+.modal h1 small {
+	position: relative;
+ 	top: -15px;
+}
+
+.modal label {
+	font: 400 11.37px PT Sans;
+	display: block;
+	color: #a0a0a0;
+}
+
+.modal input {
+	display: block;
+	height: 55px;
+	border: #fbca61 solid 1px;
+	width: 100%;
+	margin-bottom: 25px;
+	padding: 5px;
+}
+
+.modal-dialog {
+	top: 50%;
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translate(-50%, -75%) !important;
+	-ms-transform: translate(-50%, -75%) !important;
+	-o-transform: translate(-50%, -75%) !important;
+	transform: translate(-50%, -75%) !important;
+}
+
+.modal input#date {
+	background: url(..img/icons/calendar.jpg) no-repeat 97% 50%;
+}
+
+.modal input#hour {
+	background: url(..img/icons/clock.png) no-repeat 97% 50%;
 }
 
 /* END CONTENT */

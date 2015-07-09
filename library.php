@@ -12,9 +12,9 @@
 	<div class="row vertmargin-small">
 		<div class="col-sm-6">
 			<div class="book yellow">
-				<div class="hoveroverlay" data-toggle="modal" data-target="#apartar">
+				<div class="hoveroverlay"  data-toggle="modal" data-target="#apartar">
 					<div class="book-cover">
-						<img src="img/content/bookcover2.png" alt="The Queen">
+						<img src="img/content/bookcover1.png" alt="El Líder Humano">
 					</div>
 				</div>
 				<ul>
@@ -30,7 +30,7 @@
 		</div>
 		<div class="col-sm-6">
 			<div class="book blue">
-				<div class="hoveroverlay">
+				<div class="hoveroverlay" data-toggle="modal" data-target="#apartar"> 
 					<div class="book-cover">
 						<img src="img/content/bookcover2.png" alt="The Queen">
 					</div>
@@ -50,7 +50,7 @@
 	<div class="row vertmargin-small">
 		<div class="col-sm-6">
 			<div class="book blue">
-				<div class="hoveroverlay">
+				<div class="hoveroverlay" data-toggle="modal" data-target="#apartar"> 
 					<div class="book-cover">
 						<img src="img/content/bookcover2.png" alt="The Queen">
 					</div>
@@ -68,9 +68,85 @@
 		</div>
 		<div class="col-sm-6">
 			<div class="book yellow">
-				<div class="hoveroverlay">
+				<div class="hoveroverlay" data-toggle="modal" data-target="#apartar"> 
+					<div class="book-cover">
+						<img src="img/content/bookcover1.png" alt="El Líder Humano">
+					</div>
+				</div>
+				<ul>
+					<li>Nombre: El líder humano</li>
+					<li>Folio: 23213124123</li>
+					<li>Clasificación: Política</li>
+					<li>Idioma: Español</li>
+					<li>Ejemplar: 7</li>
+					<li>Editorial: Garfio</li>
+					<li><span class="aqua-green">Disponible: </span> 5 Libros</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="row vertmargin-small">
+		<div class="col-sm-6">
+			<div class="book yellow">
+				<div class="hoveroverlay"  data-toggle="modal" data-target="#apartar">
+					<div class="book-cover">
+						<img src="img/content/bookcover1.png" alt="El Líder Humano">
+					</div>
+				</div>
+				<ul>
+					<li>Nombre: El líder humano</li>
+					<li>Folio: 23213124123</li>
+					<li>Clasificación: Política</li>
+					<li>Idioma: Español</li>
+					<li>Ejemplar: 3</li>
+					<li>Editorial: Garfio</li>
+					<li><span class="aqua-green">Disponible: </span> 5 Libros</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<div class="book blue">
+				<div class="hoveroverlay" data-toggle="modal" data-target="#apartar"> 
 					<div class="book-cover">
 						<img src="img/content/bookcover2.png" alt="The Queen">
+					</div>
+				</div>
+				<ul>
+					<li>Nombre:The Queen</li>
+					<li>Folio: 256363635723</li>
+					<li>Clasificación: Fantasía</li>
+					<li>Idioma: Inglés</li>
+					<li>Ejemplar: 1</li>
+					<li>Editorial: Royal Woods</li>
+					<li><span class="aqua-green">No Disponible</span></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="row vertmargin-small">
+		<div class="col-sm-6">
+			<div class="book blue">
+				<div class="hoveroverlay" data-toggle="modal" data-target="#apartar"> 
+					<div class="book-cover">
+						<img src="img/content/bookcover2.png" alt="The Queen">
+					</div>
+				</div>
+				<ul>
+					<li>Nombre:The Queen</li>
+					<li>Folio: 256363635723</li>
+					<li>Clasificación: Fantasía</li>
+					<li>Idioma: Inglés</li>
+					<li>Ejemplar: 2</li>
+					<li>Editorial: Royal Woods</li>
+					<li><span class="aqua-green">No Disponible</span></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<div class="book yellow">
+				<div class="hoveroverlay" data-toggle="modal" data-target="#apartar"> 
+					<div class="book-cover">
+						<img src="img/content/bookcover1.png" alt="El Líder Humano">
 					</div>
 				</div>
 				<ul>
@@ -104,4 +180,4 @@
 </div>
 
 <?php include('modals.html'); ?>
-<?php include('footer.php') ?>
+<?php include('footer.php'); ?>

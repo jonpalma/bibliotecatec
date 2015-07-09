@@ -8,6 +8,8 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker3.standalone.min.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
     <link rel="stylesheet" href="css/style.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -37,7 +39,7 @@
 		<ul class="nav navbar-nav navmenu">
 			<li><a href="index.php">Inicio</a></li>
 			<?php if($loggedin) { ?>
-				<li><a href="library.php">Libros</a></li>
+				<li><a href="library.php">Biblioteca</a></li>
 				<li><a href="history.php">Historial</a></li>
 				<li><a href="index.php">Logout</a></li>
 			<?php } ?> 
