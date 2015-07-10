@@ -275,7 +275,7 @@ p.big {
 /* BEGIN CONTENT */
 
 .login-bg {
-	background: url(../img/backgrounds/bookshelf.png) no-repeat center center;
+	background: url(../img/backgrounds/bookshelf.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	background-size: cover;
 	min-height: 400px;
@@ -284,7 +284,7 @@ p.big {
 }
 
 .search-bg {
-	background: url(../img/backgrounds/background2.png) no-repeat center center;
+	background: url(../img/backgrounds/background2.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	background-size: cover;
 	min-height: 400px;
@@ -766,8 +766,25 @@ footer a:hover {
 }
 
 @media (max-width: 767px) {
-	.login-panel {
+	.login-panel, .search-panel {
 		padding: 10px 20px;
+	}
+	
+	.modal-dialog {
+		top: 0;
+		position: static;
+		left: 0;
+		transform: none !important;
+	}
+	
+	.modal-dialog .book-img {
+		margin: 10px auto 25px auto;
+		display: block;
+	}
+	
+	.hoveroverlay{
+		left: 50%;
+		transform: translate(-50%);
 	}
 	
 	body {
@@ -837,11 +854,22 @@ footer a:hover {
 	.padding {
 		padding: 50px 10px
 	}
+	
+	#profile-info input[type="radio"] + label > span{
+		margin-top: 0px;
+		margin-left: 15px;
+	}
+	
+	
 
 	#profile-info input {
 		margin-top: 0px;
-		margin-left: 30px;
+		margin-left: 15px;
 		width: 90%;
+	}
+	
+	#profile-info label {
+		margin-left: 15px;
 	}
 	
 	.book-history .col-sm-3 {
@@ -855,6 +883,7 @@ footer a:hover {
 	}
 }
 /* END MEDIA QUERIES */
+
 .close {
 	position: relative;
 	top: -5px;	
