@@ -278,18 +278,20 @@ p.big {
 	background: url(../img/backgrounds/bookshelf.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	background-size: cover;
-	min-height: 400px;
+	min-height: 500px;
 	height: 70vh;
 	position: relative;
+	padding: 10px;
 }
 
 .search-bg {
 	background: url(../img/backgrounds/background2.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	background-size: cover;
-	min-height: 400px;
+	min-height: 500px;
 	height: 70vh;
 	position: relative;
+	padding: 10px;
 }
 
 .login-panel, .search-panel {
