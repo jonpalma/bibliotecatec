@@ -326,7 +326,7 @@ p.big {
 	padding-left: 10px;
 }
 
-.login-panel input:focus, .login-panel input:active, .search-panel input:focus, .search-panel:active {
+.login-panel input:focus, .login-panel input:active, .search-panel input:focus, .search-panel input:active {
 	border: #e78d0c solid 1px; 
 	border-radius: 5px;
 	outline-width: 0;
