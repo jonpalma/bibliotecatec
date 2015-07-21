@@ -301,9 +301,9 @@ p.big {
 	border-radius: 5px;
 	position: relative;
 	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(0, -50%);
 	padding: 10px 100px;
+	margin: auto;
 }
 
 .login-panel label, .search-panel label {
@@ -768,8 +768,12 @@ footer a:hover {
 }
 
 @media (max-width: 767px) {
+	
 	.login-panel, .search-panel {
-		padding: 10px 20px;
+		padding: 20px;
+		top: 0px;
+		left: 0px;
+		transform: translate(0);
 	}
 	
 	.modal-dialog {
