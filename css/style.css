@@ -640,11 +640,11 @@ p.big {
 }
 
 .modal input#date {
-	background: url(..img/icons/calendar.jpg) no-repeat 97% 50%;
+	background: url(../img/icons/calendar.jpg) no-repeat 97% 50%;
 }
 
 .modal input#hour {
-	background: url(..img/icons/clock.png) no-repeat 97% 50%;
+	background: url(../img/icons/clock.png) no-repeat 97% 50%;
 }
 
 /* END CONTENT */
